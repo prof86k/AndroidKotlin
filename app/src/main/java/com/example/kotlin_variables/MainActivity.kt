@@ -8,6 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // printing all attrs of the song to console
         Log.d("  seperator","============================================================\n")
         Log.d(" Song Attributes","Printing song attributes to console.")
         Log.d(" Song Title", songTitle)
@@ -20,5 +21,6 @@ class MainActivity : AppCompatActivity() {
         Log.d("Song Writter",songWritter)
         Log.d("Recorder",recorded)
         Log.d("  ender ","-----------------------------------------------------------------\n")
+        // end of song attrs
     }
 }
