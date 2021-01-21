@@ -12,10 +12,13 @@ class MainActivity : AppCompatActivity() {
         Log.d(" Song Attributes","Printing song attributes to console.")
         Log.d(" Song Title", songTitle)
         Log.d(" Song Duration",duration.toString())
-        Log.d(" Year of Release", yearofRelease.toString())
+        Log.d(" Year of Release", yearofRelease)
         Log.d(" Artist", artist)
         Log.d(" Genre", genre)
         Log.d(" Album", album)
+        Log.d("Producer",producer)
+        Log.d("Song Writter",songWritter)
+        Log.d("Recorder",recorded)
         Log.d("  ender ","-----------------------------------------------------------------\n")
     }
 }
